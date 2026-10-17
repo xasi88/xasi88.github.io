@@ -3,3 +3,4 @@ Allow: /
 
 Sitemap: https://xasi88.github.io/krovlya-grozny/sitemap.xml
 Sitemap: https://xasi88.github.io/okna-grozny/sitemap.xml
+Sitemap: https://xasi88.github.io/srub-grozny/sitemap.xml
