@@ -117,7 +117,7 @@ a { color: inherit; }
 .btn svg { width: 18px; height: 18px; flex: none; }
 
 /* Первый экран */
-.hero { padding: 56px 0 40px; }
+.hero { padding: 56px 0 40px; overflow-x: clip; }
 .hero .wrap { display: grid; grid-template-columns: 1.1fr .9fr; gap: 40px; align-items: center; }
 .eyebrow {
   margin: 0 0 18px; font-size: 13px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--saffron);
@@ -135,7 +135,7 @@ h1 em { font-style: italic; color: var(--moss); }
 .stats span { margin-top: 6px; font-size: 14px; color: var(--muted); }
 
 .fan { position: relative; height: 560px; }
-.fan .phone { position: absolute; top: 50%; left: 50%; width: 230px; }
+.fan .phone { position: absolute; top: 50%; left: 50%; width: clamp(190px, 18vw, 230px); }
 .fan .phone:nth-child(1) { transform: translate(-112%, -46%) rotate(-9deg); }
 .fan .phone:nth-child(2) { transform: translate(-50%, -54%); z-index: 2; }
 .fan .phone:nth-child(3) { transform: translate(12%, -46%) rotate(9deg); }
