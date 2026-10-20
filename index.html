@@ -310,13 +310,15 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
           <button type="button" data-filter="all" aria-pressed="true">Все<sup data-count="all">7</sup></button>
           <button type="button" data-filter="app" aria-pressed="false">Приложения<sup data-count="app">2</sup></button>
           <button type="button" data-filter="site" aria-pressed="false">Сайты для бизнеса<sup data-count="site">4</sup></button>
+          <button type="button" data-filter="brand" aria-pressed="false">Логотипы<sup data-count="brand">1</sup></button>
           <button type="button" data-filter="me" aria-pressed="false">Личное<sup data-count="me">1</sup></button>
         </div>
       </div>
 
       <!--
         Новый проект: скопировать один блок <article>, поменять тексты, адрес и картинки.
-        data-kind: app (приложение), site (сайт для бизнеса), me (личное).
+        data-kind: app (приложение), site (сайт для бизнеса), brand (логотип и брендбук), me (личное).
+        Работа без открытой ссылки (брендбук у заказчика): вместо <a class="media"> блок <div class="media">, без кнопки.
         Картинки: python tools/снимок.py <имя> <адрес>
         Номера и счётчики пересчитывает скрипт внизу страницы.
       -->
@@ -468,6 +470,25 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
             <div class="go">
               <a class="btn" href="https://xasi88.github.io/cambridge-grozny/" target="_blank" rel="noopener">Открыть сайт <span aria-hidden="true">&#8599;</span></a>
             </div>
+          </div>
+        </article>
+
+        <article class="project reveal" data-kind="brand">
+          <div class="media" aria-hidden="true">
+            <div class="browser"><div class="bar"><i></i><i></i><i></i><span>Бекойл</span></div>
+              <img src="img/bekoil-pc.webp" width="1200" height="750" alt="" loading="lazy"></div>
+            <div class="phone"><img src="img/bekoil-phone.webp" width="600" height="1298" alt="" loading="lazy"></div>
+          </div>
+          <div>
+            <span class="num"></span><span class="tag">Логотип и брендбук</span>
+            <h3>Бекойл</h3>
+            <p>Логотип и брендбук сети АЗС. В знаке синее пламя, в пламени дорога уходит к горизонту.</p>
+            <ul>
+              <li>Свои буквы названия с наклоном, они дают движение</li>
+              <li>Брендбук на 17 страниц: цвета для печати, шрифт, правила</li>
+              <li>Макеты: стела, навес, колонка, форма, бензовоз, топливная карта</li>
+            </ul>
+            <p class="note">Брендбук только для владельца сети, в открытом доступе его нет.</p>
           </div>
         </article>
 
