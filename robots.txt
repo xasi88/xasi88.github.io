@@ -5,3 +5,5 @@ Sitemap: https://xasi88.github.io/krovlya-grozny/sitemap.xml
 Sitemap: https://xasi88.github.io/okna-grozny/sitemap.xml
 Sitemap: https://xasi88.github.io/srub-grozny/sitemap.xml
 Sitemap: https://xasi88.github.io/cambridge-grozny/sitemap.xml
+Sitemap: https://xasi88.github.io/urolog-aliev/sitemap.xml
+Sitemap: https://xasi88.github.io/dianora-site/sitemap.xml
